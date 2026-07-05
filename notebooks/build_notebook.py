@@ -279,7 +279,7 @@ print("Audio energy shape:", audio_energy.shape,
 # ============================================================
 # 9. INFORME DE ATENCION  ← NUEVO
 # ============================================================
-cells.append(md("""## 9. Informe de atención por segmento ⭐
+cells.append(md("""## 9. Informe de atención por segmento
 
 Calcula la magnitud de actividad cortical por segundo (la "intensidad de atención" del cerebro modelado),
 identifica los **picos altos** y **valles bajos**, y los alinea con las palabras del transcript.
