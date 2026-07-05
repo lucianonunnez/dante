@@ -1,0 +1,3 @@
+# Core engagement analytics + CLI run with the standard library only.
+# numpy is needed only to load real TRIBE .npz exports (attention-lens analyze).
+numpy>=1.26

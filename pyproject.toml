@@ -1,0 +1,15 @@
+[project]
+name = "attention-lens"
+version = "0.1.0"
+description = "Video engagement analytics from per-second cortical activation (TRIBE)"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+attention-lens = "attention_lens.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
